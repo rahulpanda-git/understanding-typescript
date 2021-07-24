@@ -6,6 +6,8 @@
 
 /** Function to add two numbers, no other data type will be allowed for function call */
 function add(n1: number, n2: number) {
+    console.log('Data type of n1 is : ', typeof(n1),' & Value of n1 is: ', n1);
+    console.log('Data type of n2 is : ', typeof(n2),' & Value of n2 is: ', n2);
     return n1 + n2;
 }
 
@@ -14,4 +16,4 @@ const n2 = 10.4;
 
 const result = add(n1, n2);
 
-console.log(result);
+console.log('Sum of two numbers is: ', result);
