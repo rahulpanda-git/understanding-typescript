@@ -3,7 +3,7 @@ function add(n1, n2, showResult) {
         throw new Error('Incorrect input!');
     }
     if (showResult) {
-        console.log(n1 + n2);
+        console.log('Result is: ' + (n1 + n2));
     }
     return n1 + n2;
 }
